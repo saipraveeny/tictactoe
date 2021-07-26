@@ -24,8 +24,8 @@ h1 {
 }
 
 .board {
-  border: 1rem solid #ff652f;
-  background: #ff652f;
+  border: 1rem solid #575656;
+  background: #686766;
   width: 500px;
   height: 500px;
   display: grid;
@@ -34,7 +34,7 @@ h1 {
 }
 
 .cells {
-  background: #272727;
+  background: #0a0a0a;
   border: none;
   font-size: 5rem;
   /* font-weight: 800; */

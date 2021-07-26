@@ -44,7 +44,7 @@ const Game = () => {
           <h3>History</h3>
           {renderMoves()}
         </div>
-        <h3>{winner ? "Winner: " + winner : "Next Player: " + xO}</h3>
+        <h3>{winner ? "Winner: " + winner : xO + ": Players Turn"}</h3>
       </div>
     </>
   );
