@@ -1,6 +1,12 @@
-import logo from "./logo.svg";
+import React from "react";
 import "./App.css";
-
-function App() {}
+import Cell from "./components/cell";
+function App() {
+  return (
+    <div>
+      <Cell></Cell>
+    </div>
+  );
+}
 
 export default App;
