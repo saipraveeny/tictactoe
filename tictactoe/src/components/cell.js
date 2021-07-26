@@ -3,7 +3,7 @@ import "./cell.css";
 
 const Cell = ({ value, onClick }) => {
   return (
-    <button className="style" onClick={onClick}>
+    <button className="classbutton" onClick={onClick}>
       {value}
     </button>
   );

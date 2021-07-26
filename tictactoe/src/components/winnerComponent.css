@@ -1,0 +1,22 @@
+h2 {
+  display: flex;
+  justify-content: space-around;
+  font-style: italic;
+  font-weight: bolder;
+  color: aquamarine;
+  animation-duration: 3s;
+  animation-name: slidein;
+  /* animation-iteration-count: infinite; */
+  animation-direction: alternate;
+}
+@keyframes slidein {
+  from {
+    margin-: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-bottom: 0%;
+    width: 100%;
+  }
+}

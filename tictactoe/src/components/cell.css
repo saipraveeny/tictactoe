@@ -12,3 +12,14 @@
   align-content: center;
   font-weight: bold;
 }
+
+.classbutton {
+  border-radius: 25px;
+  background: #515252;
+  width: 88px;
+  height: 88px;
+  padding: 20px;
+  color: aliceblue;
+  font-size: xx-large;
+  font-weight: bold;
+}
