@@ -7,19 +7,24 @@
 /*}*/
 
 .cell p {
-  display: flex;
+  /* display: flex;
   justify-content: center;
   align-content: center;
-  font-weight: bold;
+  font-weight: bold; */
 }
 
 .classbutton {
   border-radius: 25px;
-  background: #515252;
+  background: linear-gradient(rgb(44, 43, 43), rgb(70, 68, 68));
   width: 88px;
   height: 88px;
   padding: 20px;
   color: aliceblue;
   font-size: xx-large;
   font-weight: bold;
+  box-shadow: 0 0 0.05em #fff, 0 0 0.2em #ffffff, 0 0 0.3em #ffffff;
+}
+
+.classbutton:hover {
+  background: linear-gradient(rgb(85, 118, 156), rgb(94, 190, 253));
 }

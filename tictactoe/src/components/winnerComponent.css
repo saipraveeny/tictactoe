@@ -1,14 +1,38 @@
 h2 {
   display: flex;
   justify-content: space-around;
-  font-style: italic;
+  /* font-style: italic; */
   font-weight: bolder;
-  color: aquamarine;
-  animation-duration: 3s;
-  animation-name: slidein;
-  /* animation-iteration-count: infinite; */
-  animation-direction: alternate;
+  /* color: aquamarine; */
+  color: #fff;
+  font-size: 3rem;
+  font-family: "ubuntu";
+  align-content: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  background: linear-gradient(to right, #043c6d 10%, #be0f52 50%, #07d80e 60%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 1.5s linear infinite;
+  display: inline-block;
 }
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+/* animation-duration: 3s;
+animation-name: slidein;
+/* animation-iteration-count: infinite; */
+/* animation-direction: alternate;
 @keyframes slidein {
   from {
     margin-: 100%;
@@ -19,4 +43,4 @@ h2 {
     margin-bottom: 0%;
     width: 100%;
   }
-}
+} */

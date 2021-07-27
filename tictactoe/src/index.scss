@@ -8,8 +8,8 @@
 
 body {
   /* background-color: black; */
-  background: url(./assets/video.mp4);
-  background-size: cover;
+  background: url(./assets/bg1.jpg);
+  background-size: auto;
   color: rgb(231, 226, 226);
   font-family: "Roboto", sans-serif;
   display: flex;
@@ -20,10 +20,15 @@ body {
 }
 
 h1 {
-  margin: 2rem;
-  justify-content: center;
+  margin: 0;
+  font-size: xx-large;
+  margin-top: -0.6em;
+  color: white;
   text-align: center;
-  color: cornflowerblue;
+  padding-bottom: 10%;
+  justify-content: center;
+  text-shadow: 0 0 0.05em #fff, 0 0 0.2em #fe05e1, 0 0 0.3em #fe05e1;
+  // transform: rotate(-7deg);
 }
 
 .board {
@@ -64,6 +69,7 @@ h1 {
 
 h3 {
   padding: 1rem;
+  color: rgb(59, 60, 61);
 }
 
 li {
@@ -77,10 +83,13 @@ li {
   border-radius: 30px;
   outline: none;
   cursor: progress;
+  font-weight: bold;
   padding: 0.5rem;
-  margin: 0.5rem 1rem;
 }
 
 button:hover {
-  background-color: rgb(131, 187, 233);
+  background: linear-gradient(rgb(72, 203, 255), rgb(11, 144, 233));
+  color: rgb(59, 60, 61);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }

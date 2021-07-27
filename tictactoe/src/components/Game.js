@@ -3,7 +3,7 @@ import calculateWinner from "../winnercal";
 import "./Game.css";
 import Board from "./Board";
 import { WinnerComponent as Dummy } from "./winnerComponent";
-import video from "../assets/video.mp4";
+// import video from "../assets/video.mp4";
 
 const Game = () => {
   const [history, setHistory] = useState([Array(9).fill(null)]);
@@ -41,9 +41,9 @@ const Game = () => {
 
   return (
     <>
-      <video id="myVideo" loop autoPlay>
+      {/* <video id="myVideo" loop autoPlay>
         <source src={video} type="video/mp4" />
-      </video>
+      </video> */}
       <h1>Tic Tac Toe</h1>
 
       {winner || noMoves ? (
